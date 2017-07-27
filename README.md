@@ -5,7 +5,7 @@ A simple Dockerfile running a Sonatype Nexus IQ Server, based on CentOS.
 Just expose the neccessary ports 8070 and 8071 to the host.
 
 ```
-$ docker run -d -p 8070:8070 -p 8071:8071 --name nexus-iq-server feffi/iq-server
+$ docker run -d -p 8070:8070 -p 8071:8071 --name nexus-iq-server feffi/nexus-iq-server
 ```
 
 To test:
