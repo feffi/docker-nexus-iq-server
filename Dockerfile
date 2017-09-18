@@ -20,7 +20,7 @@ RUN mkdir -p /opt \
   && ln -s /opt/jdk1.${JAVA_VERSION_MAJOR}.0_${JAVA_VERSION_MINOR} ${JAVA_HOME}
 
 ENV SONATYPE_WORK /sonatype-work
-ENV IQ_VERSION 1.27.0-01
+ENV IQ_VERSION 1.34
 
 RUN mkdir -p /opt/sonatype/iq-server \
   && curl --fail --silent --location --retry 3 \
