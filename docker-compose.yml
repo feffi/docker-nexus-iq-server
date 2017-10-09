@@ -1,10 +1,8 @@
 version: '2'
 services:
   nexus-iq-server:
-    image: feffi/nexus-iq-server:latest
+    image: feffi/docker-nexus-iq-server:latest
     hostname: nexus-iq-server
-    environment:
-      IQ_VERSION: 1.27.0-01
     stdin_open: true
     tty: true
     volumes:
