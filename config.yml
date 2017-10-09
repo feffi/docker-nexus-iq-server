@@ -74,10 +74,10 @@ http:
 # If enabled, ensure that the baseUrl configuration setting is also enabled and correct, because generated emails often contain links to the server.
 #mail:
 
-  # The host running the SMTP server to use. 
+  # The host running the SMTP server to use.
   #hostname: "127.0.0.1"
 
-  # The port at which the SMTP server listens on. 
+  # The port at which the SMTP server listens on.
   #port: 587
 
   # The address used as From for outgoing notification mails sent by the server.
@@ -88,10 +88,10 @@ http:
 
   # The password used to access the mail server.
   #password: "guest"
-  
+
   # Connect using SSL.
   #ssl: true
-  
+
   # Connect using TLS.
   #tls: true
 
