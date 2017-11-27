@@ -1,10 +1,13 @@
 version: '2'
 services:
   nexus-iq-server:
-    image: feffi/docker-nexus-iq-server:latest
+    #image: feffi/docker-nexus-iq-server:latest
+    image: jswank/iq-server:latest
     hostname: nexus-iq-server
     stdin_open: true
     tty: true
+    ports:
+    - 8070:8070/tcp
     volumes:
     - nexus-iq-data:/sonatype-work
-    - nexus-iq-data/config.yml:/opt/sonatype/iq-server/config.yml
+    - nexus-iq-data-config:/opt/sonatype/iq-server
